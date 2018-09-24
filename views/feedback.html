@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="shortcut icon" type="image/png" href="images/logo.png"/>
+		<title>Feedback Form</title>
+
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+		<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+		<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+		<link href="css/styles.css" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="css/login.css">
+		<link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+		<link rel="stylesheet" href="css/main.css">
+		<link rel="stylesheet" href="css/ionicons.min.css">
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+
+
+		<script src="js/maindropdown.js"></script>
+		<script src="bootstrap/js/bootstrap.min.js"></script>
+		<script src="js/custom.js"></script>
+	</head>
+	<body  style= "background: url(images/event.png) no-repeat center center fixed;
+  background-size: cover; height: 100%;">
+		<!--Header part-->
+		<div class="header">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-5">
+					<!-- Logo -->
+						<div class="logo">
+							<h1><a href="index.html"><img src="images/logo.png" height="40" width="40"></img>   Prevole</a></h1>
+						</div>
+					</div>
+					<div class="col-md-5">
+						<div class="row">
+							<div class="col-lg-12">
+
+							</div>
+						</div>
+					</div>
+					<div class="col-md-2" align="right">
+						<div class="navbar navbar-inverse" role="banner">
+							<nav class="collapse navbar-collapse bs-navbar-collapse navbar-right" role="navigation">
+								<ul class="nav navbar-nav">
+									<li class="dropdown">
+									<a href="#" class="dropdown-toggle" data-toggle="dropdown">My Account<b class="caret"></b></a>
+									<ul class="dropdown-menu animated fadeInUp">
+										<li><a href="Profile.html">Profile</a></li>
+										<li><a href="profile.html">Income</a></li>
+										<li><a href="completed events.html">Completed events</a></li>
+										<li><a href="pending events.html">Pending Events</a></li>
+										<li><a href="register.html">Register a Complain</a></li>
+										<li><a href="login.html">Logout</a></li>
+									</ul>
+									</li>
+								</ul>
+							</nav>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Header Part End Here -->
+
+		<div class="content">
+			<h1><font color="black">Feedback </font></h1>
+			<div class="main" style = "border:1px solid black">
+				<form>
+					<h5>Your Name</h5>
+						<input type="text" value="Type here" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Type here';}" required=""/>
+						<h5>Email</h5>
+						<input type="text" value="username@mail.com" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'username@mail.com';}" required=""/>
+						<h5>Your Review <span>( Tips and Guidelines ) </span> </h5>
+						<textarea onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Type here';}" required="">Type here</textarea>
+					<h5>Overall Experience</h5></br>
+					<div class="radio-btns">
+						<div class="swit">
+							<div class="check_box_one">
+								<div class="radio">
+									<label><input type="radio" name="radio" checked=""><i></i>Very Good</label>
+								</div>
+							</div>
+							<div class="check_box">
+								<div class="radio">
+									<label><input type="radio" name="radio"><i></i>Good</label>
+								</div>
+							</div>
+							<div class="check_box">
+								<div class="radio">
+									<label><input type="radio" name="radio"><i></i>Fair</label>
+								</div>
+							</div>
+							<div class="check_box">
+								<div class="radio">
+									<label><input type="radio" name="radio"><i></i>Poor</label>
+								</div>
+							</div>
+							<div class="clear">
+							</div>
+						</div>
+					</div>
+					<h5>Timely Response</h5>
+						<div class="radio-btns">
+							<div class="swit">
+								<div class="check_box_one"> <div class="radio1"> <label><input type="radio" name="radio1" checked=""><i></i>Very Good</label> </div></div>
+								<div class="check_box"> <div class="radio1"> <label><input type="radio" name="radio1"><i></i>Good</label> </div></div>
+								<div class="check_box"> <div class="radio1"> <label><input type="radio" name="radio1"><i></i>Fair</label> </div></div>
+								<div class="check_box"> <div class="radio1"> <label><input type="radio" name="radio1"><i></i>Poor</label> </div></div>
+								<div class="clear"></div>
+							</div>
+						</div>
+						<h5>Our Support</h5>
+						<div class="radio-btns">
+							<div class="swit">
+								<div class="check_box_one"> <div class="radio2"> <label><input type="radio" name="radio2" checked=""><i></i>Very Good</label> </div></div>
+								<div class="check_box"> <div class="radio2"> <label><input type="radio" name="radio2"><i></i>Good</label> </div></div>
+								<div class="check_box"> <div class="radio2"> <label><input type="radio" name="radio2"><i></i>Fair</label> </div></div>
+								<div class="check_box"> <div class="radio2"> <label><input type="radio" name="radio2"><i></i>Poor</label> </div></div>
+								<div class="clear"></div>
+							</div>
+						</div>
+						<h5>Overall Satisfaction</h5>
+						<div class="radio-btns">
+							<div class="swit">
+								<div class="check_box_one"> <div class="radio3"> <label><input type="radio" name="radio3" checked=""><i></i>Very Good</label> </div></div>
+								<div class="check_box"> <div class="radio3"> <label><input type="radio" name="radio3"><i></i>Good</label> </div></div>
+								<div class="check_box"> <div class="radio3"> <label><input type="radio" name="radio3"><i></i>Fair</label> </div></div>
+								<div class="check_box"> <div class="radio3"> <label><input type="radio" name="radio3"><i></i>Poor</label> </div></div>
+								<div class="clear"></div>
+							</div>
+						</div>
+						<h5>Want to rate with us for customer services?</h5>
+						<span class="starRating">
+							<input id="rating5" type="radio" name="rating" value="5">
+							<label for="rating5">5</label>
+							<input id="rating4" type="radio" name="rating" value="4">
+							<label for="rating4">4</label>
+							<input id="rating3" type="radio" name="rating" value="3" >
+							<label for="rating3">3</label>
+							<input id="rating2" type="radio" name="rating" value="2" checked>
+							<label for="rating2">2</label>
+							<input id="rating1" type="radio" name="rating" value="1">
+							<label for="rating1">1</label>
+						</span>
+						<h5>Is there anything you would like to tell us?</h5>
+						<textarea onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Type here';}" required="">Type here</textarea>
+						<a href = "index.html"><input type="button" onclick ="alert('Sucessfully submitted')" value="Send Feedback"></a></br>
+				</form>
+			</div>
+		</div>
+		<footer class="site-footer">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6">
+						<div class="copyright">
+							<p>Prevole.com , All rights reserved |<a href="#">Top Of Page</a></p>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="social_icons agileinfo">
+							<ul class="top-links">
+								<li><a href="https://www.facebook.com/prevole" class="facebook"><i class="fa fa-facebook"></i></a></li>
+								<li><a href="https://www.twitter.com/prevole" class="twitter"><i class="fa fa-twitter"></i></a></li>
+								<li><a href="https://plus.google.com/+prevole" class="google-plus"><i class="fa fa-google-plus"></i></a></li>
+								<li><a href="https://in.linkedin.com/company/prevole" class="linkedin"><i class="fa fa-linkedin"></i></a></li>
+								<li><a href="https://www.instagram.com/prevole" class="instagram"><i class="fa fa-instagram"></i></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+
+</body>
+</html>
